@@ -1,5 +1,5 @@
 def new_hash
-  empty_hash = {}
+  new_hash = {}
 end
 
 def actor
@@ -27,8 +27,8 @@ def monopoly
         :pennsylvania_railroad =>
         {
           "mortgage_value" => "$200"
-        }
-
+        },
+        :b_and_o
       },
     }
   }
@@ -36,8 +36,7 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+  
 end
 
 def monopoly_with_third_tier
